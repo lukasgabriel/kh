@@ -7,7 +7,7 @@ Python script that helps you keep a tidy `known_hosts` file
 `ssh-keyscan` outputs one line per address per algorithm, so scanning a host by hostname and IP gives you six messy, duplicated lines.
 `kh` merges them into three clean ones with all addresses on each line: hostname first, then private IP, then public IP - keeping your `known_hosts` deduplicated and readable.
 
-The motivation behind this script was to make it easy to keep my chezmoi-managed `known_hosts` files tidy, even when reaching thousands of entries.
+The motivation behind this script was to make it easy to keep a [chezmoi](https://www.chezmoi.io)-managed `known_hosts` files tidy, even when reaching thousands of entries. Therefore, the script also works on `.tmpl` files.
 
 ## Usage
 
